@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Cairo;
+  background-color: lightblue;
+  position: absolute;
+  
+}
+.header {
+  background-image: url(0d2010a447da5c9c7396d3048e9f7f90.jpg);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+  max-height: 114px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 100;
+}
+.logojpg {
+   width: 200px;
+   margin-top: 0;
+   
+}
+
+.logo {
+ 
+  flex: 1;
+}
+.name {
+  font-family: Major Mono Display
+  ;
+  flex: 3;
+  font-size: 60px;
+  font-weight: 500;
+  transition: font-size .15s;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+
+.home {
+  
+  flex: 1;
+  font-size: 20px;
+  transition: font-size .15s;
+}
+.home:hover {
+  font-size: 23px;
+}
+.about {
+  
+  flex: 1;
+  font-size: 20px;
+  transition: font-size .15s;
+}
+.about:hover {
+  font-size: 23px;
+}
+.regi {
+  
+  flex: 1;
+  font-size: 20px;
+  transition: font-size .15s;
+}
+.regi:hover {
+  font-size: 23px;
+}
+.login {
+ 
+  flex: 1;
+  font-size: 20px;
+  transition: font-size .15s;
+  padding-left: 10px;
+}
+.login:hover {
+  font-size: 23px;
+}
+.about-dic {
+  position: absolute;
+  top: 120px;
+  width: 800px;
+  left: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-text {
+  font-size: 40px;
+  font-weight: 500;
+}
