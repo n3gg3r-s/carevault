@@ -1,0 +1,19 @@
+body {
+  background-image: url(Screenshot\ 2025-03-02\ 014322.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  
+}
+.registration-page {
+  position: relative;
+  
+}
+.dp-registration {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+}
