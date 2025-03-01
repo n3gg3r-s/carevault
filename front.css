@@ -3,7 +3,7 @@ body {
   font-family: Cairo;
   background-color: lightblue;
   position: absolute;
-  margin-bottom: 1000px;
+  
 }
 .header {
   background-image: url(0d2010a447da5c9c7396d3048e9f7f90.jpg);
@@ -86,4 +86,21 @@ body {
   width: 500px;
   height: 300px;
   left: 150px;
+}
+.head {
+  position: absolute;
+  width: 400px;
+  top: 150px;
+  left: 750px;
+}
+p {
+  margin: 0;
+  
+}
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.foot {
+  font-weight: 600;
 }
