@@ -15,5 +15,9 @@ body {
   gap: 10px;
   position: absolute;
   top: 50%;
-  left: 38%;
+  left: 26%;
+}
+.d-registration , .p-registration {
+  font-size: 30px;
+  padding: 5px 15px;
 }
