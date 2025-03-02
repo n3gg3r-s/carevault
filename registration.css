@@ -1,12 +1,14 @@
 body {
-  background-image: url(Screenshot\ 2025-03-02\ 014322.png);
-  background-position: cover;
+  background-image: url("Screenshot\ 2025-03-02\ 014322.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: center;
-  
+  background-position: center;
+  height: 100vh;
 }
 .registration-page {
   position: relative;
+  
+  
   
 }
 .dp-registration {
@@ -20,4 +22,17 @@ body {
 .d-registration , .p-registration {
   font-size: 30px;
   padding: 5px 15px;
+  border-color: rgb(57, 85, 94);
+  border-style: solid;
+  background-color: rgb(53, 103, 53);
+  transition: background-color .15s, border-color .15s, color .15s;
+  color: white;
+}
+.d-registration:hover, .p-registration:hover {
+  background-color: lightgreen;
+  border-color: rgb(92, 90, 219);
+  color: black;
+}
+.d-registration:active, .p-registration:active {
+  opacity: 0.6;
 }
