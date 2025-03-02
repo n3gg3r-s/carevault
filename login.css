@@ -17,6 +17,23 @@ body {
   gap: 10px;
   position: absolute;
  top: 50%;
-  left: 40%;
+  left: 31%;
+}
+.d-login , .p-login {
+  font-size: 30px;
+  padding: 5px 15px;
+  border-color: rgb(57, 85, 94);
+  border-style: solid;
+  background-color: rgb(53, 103, 53);
+  transition: background-color .15s, border-color .15s, color .15s;
+  color: white;
+}
+.d-login:hover, .p-login:hover {
+  background-color: lightgreen;
+  border-color: rgb(92, 90, 219);
+  color: black;
+}
+.d-login:active, .p-login:active {
+  opacity: 0.6;
 }
 
